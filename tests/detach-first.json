@@ -1,0 +1,42 @@
+{
+  "machine": "detach-first",
+  "expectations": [
+    {
+      "using": {
+        "array": [0,1,2,3,4,5,6]
+      },
+      "outcome": "success",
+      "returns": {
+        "first": 0,
+        "array": [1,2,3,4,5,6]
+      }
+    },
+    {
+      "using": {
+        "array": [
+          {
+            "name": "Lucy"
+          },
+          {
+            "name": "Ricky"
+          },
+          {
+            "name": "John"
+          }
+        ]
+      },
+      "outcome": "success",
+      "returns": {
+        "first": {"name": "Lucy"},
+        "array": [
+          {
+            "name": "Ricky"
+          },
+          {
+            "name": "John"
+          }
+        ]
+      }
+    }
+  ]
+}
