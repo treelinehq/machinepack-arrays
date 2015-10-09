@@ -47,7 +47,9 @@
       "sort-numbers",
       "index-of",
       "find-index-of",
-      "replace"
+      "replace",
+      "take",
+      "take-right"
     ],
     "testsUrl": "https://travis-ci.org/"
   },

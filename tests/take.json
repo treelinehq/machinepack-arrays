@@ -1,0 +1,130 @@
+{
+  "machine": "take",
+  "expectations": [
+    {
+      "using": {
+        "array": [
+          {
+            "name": "Lucy"
+          },
+          {
+            "name": "Ricky"
+          },
+          {
+            "name": "Louise"
+          },
+          {
+            "name": "Estelle"
+          }
+        ],
+        "num": 1
+      },
+      "outcome": "success",
+      "returns": [
+        {
+          "name": "Lucy"
+        }
+      ]
+    },
+    {
+      "using": {
+        "array": [
+          {
+            "name": "Lucy"
+          },
+          {
+            "name": "Ricky"
+          },
+          {
+            "name": "Louise"
+          },
+          {
+            "name": "Estelle"
+          }
+        ],
+        "num": 4
+      },
+      "outcome": "success",
+      "returns": [
+        {
+          "name": "Lucy"
+        },
+        {
+          "name": "Ricky"
+        },
+        {
+          "name": "Louise"
+        },
+        {
+          "name": "Estelle"
+        }
+      ]
+    },
+    {
+      "using": {
+        "array": [
+          {
+            "name": "Lucy"
+          },
+          {
+            "name": "Ricky"
+          },
+          {
+            "name": "Louise"
+          },
+          {
+            "name": "Estelle"
+          }
+        ],
+        "num": 3
+      },
+      "outcome": "success",
+      "returns": [
+        {
+          "name": "Lucy"
+        },
+        {
+          "name": "Ricky"
+        },
+        {
+          "name": "Louise"
+        }
+      ]
+    },
+    {
+      "using": {
+        "array": [
+          {
+            "name": "Lucy"
+          },
+          {
+            "name": "Ricky"
+          },
+          {
+            "name": "Louise"
+          },
+          {
+            "name": "Estelle"
+          }
+        ],
+        "num": 2
+      },
+      "outcome": "success"
+    },
+    {
+      "using": {
+        "array": [
+          {
+            "name": "Lucy"
+          },
+          {
+            "name": "Ricky"
+          }
+        ],
+        "num": 0
+      },
+      "outcome": "success",
+      "returns": []
+    }
+  ]
+}
