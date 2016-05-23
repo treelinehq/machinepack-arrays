@@ -1,0 +1,57 @@
+{
+  "machine": "sample-slice",
+  "expectations": [
+    {
+      "using": {
+        "array": [
+          "a",
+          "b",
+          "c",
+          "d"
+        ],
+        "num": 2
+      },
+      "outcome": "success"
+    },
+    {
+      "using": {
+        "array": [
+          "a",
+          "b"
+        ],
+        "num": 2
+      },
+      "outcome": "success",
+      "returns": [
+        "a",
+        "b"
+      ]
+    },
+    {
+     "using": {
+        "array": [1,2,3,4,5,6],
+        "num": 3
+      },
+       "outcome": "success"
+    },
+    {
+     "using": {
+        "array": null
+      },
+       "outcome": "error"
+    },
+    {
+     "using": {
+        "array": []
+      },
+       "outcome": "error"
+    },
+    {
+     "using": {
+        "array": [],
+        "num": 1
+      },
+       "outcome": "emptyError"
+    }
+  ]
+}
